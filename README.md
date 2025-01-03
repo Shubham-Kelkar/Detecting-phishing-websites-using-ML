@@ -38,7 +38,7 @@ The final dataset, Final.csv, contains 552,119 websites with labels indicating i
 5. Website Prediction Function
    - Developed a function that allows users to input a website URL and receive a prediction (phishing or legitimate).
 
-### <ins>Future Work</isn>
+### <ins>Future Work</ins>
 
 - Deployment of the model as a web application.
 - Additional feature engineering for model improvement.
