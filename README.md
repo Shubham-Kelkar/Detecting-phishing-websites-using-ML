@@ -11,5 +11,16 @@ The goal of this project is to build a machine learning model that detects phish
 The dataset used in this project was a combination of the following sources:
 1. https://www.phishtank.com/developer_info.php.
 2. https://www.kaggle.com/datasets/ndarvind/phiusiil-phishing-url-dataset
-3. https://github.com/chamanthmvs/Phishing-Website-Detection/blob/master/raw_datasets/1000-phishing.txt  
+3. https://github.com/chamanthmvs/Phishing-Website-Detection/blob/master/raw_datasets/1000-phishing.txt
+
+The final dataset, Final.csv, contains 552,119 websites with labels indicating if they are phishing (1) or legitimate (0). Features extracted from the dataset include:
+- URL, URL Length, Digits Count, URL Depth
+- URL Entropy, URL Popularity Score
+- Domain, Sub-domain Count, Domain Entropy
+- Path Length, Special Characters Count
+- Has HTTPS, Has IP, Has Suspicious Keywords
+- TLD (Top-Level Domain), Has Suspicious TLD
+- Label, Target
+
+### Methodology
 
