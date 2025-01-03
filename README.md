@@ -6,7 +6,7 @@ This project is based on a problem mentioned in the Goa Police Hackathon 2024, w
 
 The goal of this project is to build a machine learning model that detects phishing websites using a variety of features derived from the URLs and domains. The dataset was imbalanced, which was addressed by balancing the data for improved classification performance. The project includes an analysis of the data, training of various machine learning models, and a user-friendly function to predict whether a website is phishing or legitimate.
 
-### Dataset
+### <ins>Dataset</ins>
 
 The dataset used in this project was a combination of the following sources:
 1. https://www.phishtank.com/developer_info.php.
@@ -22,7 +22,7 @@ The final dataset, Final.csv, contains 552,119 websites with labels indicating i
 - TLD (Top-Level Domain), Has Suspicious TLD
 - Label, Target
 
-### Methodology
+### <ins>Methodology</ins>
 
 1. Data Preprocessing
    - Combined multiple datasets to form Final.csv.
@@ -38,11 +38,11 @@ The final dataset, Final.csv, contains 552,119 websites with labels indicating i
 5. Website Prediction Function
    - Developed a function that allows users to input a website URL and receive a prediction (phishing or legitimate).
 
-### Contributing
+### <ins>Contributing</ins>
 
 Feel free to fork the repository, open issues, and submit pull requests. Contributions are always welcome!
 
-### Acknowledgements
+### <ins>Acknowledgements</ins>
 
 - This project was inspired by a problem mentioned in the Goa Police Hackathon 2024.
 - Special thanks to my collaborator for working together on this project.
