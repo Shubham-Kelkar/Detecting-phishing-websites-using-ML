@@ -24,3 +24,17 @@ The final dataset, Final.csv, contains 552,119 websites with labels indicating i
 
 ### Methodology
 
+1. Data Preprocessing
+   - Combined multiple datasets to form Final.csv.
+   - Balanced the dataset to address class imbalance.
+2. Exploratory Data Analysis (EDA)
+   - Analyzed the distribution of each feature relative to the target (phishing/legitimate).
+   - Visualized data and performed statistical analysis.
+3. Model Training & Evaluation
+   - Trained four classification models: XGBoost, Random Forest, Logistic Regression, Naive Bayes.
+   - Stored models and label encoder as .pkl files for future use.
+4. Model Comparison
+   - Evaluated and compared the performance of each model and generated a comparison table.
+5. Website Prediction Function
+   - Developed a function that allows users to input a website URL and receive a prediction (phishing or legitimate).
+
