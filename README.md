@@ -51,4 +51,4 @@ Feel free to fork the repository, open issues, and submit pull requests. Contrib
 ### <ins>Acknowledgements</ins>
 
 - This project was inspired by a problem mentioned in the Goa Police Hackathon 2024.
-- Special thanks to my collaborator for working together on this project.
+- Special thanks to my collaborator, [Disha Savant](https://github.com/Disha-Savant), for working together on this project.
